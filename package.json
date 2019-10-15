@@ -1,6 +1,6 @@
 {
   "name": "electron-learn-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hoe werkt het publishen en updaten van een electron app",
   "main": "main.js",
   "scripts": {
