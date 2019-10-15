@@ -1,0 +1,6 @@
+build/*.js
+build/*.html
+!build/main.js
+dist/
+node_modules/
+**-lock.json

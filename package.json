@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JorneJongsma/electron-learn-updater/issues"
   },
-  "homepage": "https://github.com/JorneJongsma/electron-learn-updater#readme"
+  "homepage": "https://github.com/JorneJongsma/electron-learn-updater#readme",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  }
 }
