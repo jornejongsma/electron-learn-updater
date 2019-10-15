@@ -4,3 +4,4 @@ build/*.html
 dist/
 node_modules/
 **-lock.json
+electron-builder.yml

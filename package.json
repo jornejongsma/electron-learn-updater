@@ -2,9 +2,11 @@
   "name": "electron-learn-updater",
   "version": "1.0.0",
   "description": "Hoe werkt het publishen en updaten van een electron app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/JorneJongsma/electron-learn-updater#readme",
   "devDependencies": {
-    "electron": "^6.0.12"
+    "electron": "^6.0.12",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.1.2"
   }
 }
