@@ -1,0 +1,19 @@
+{
+  "name": "electron-learn-updater",
+  "version": "1.0.0",
+  "description": "Hoe werkt het publishen en updaten van een electron app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorneJongsma/electron-learn-updater.git"
+  },
+  "author": "Jorne Jongsma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorneJongsma/electron-learn-updater/issues"
+  },
+  "homepage": "https://github.com/JorneJongsma/electron-learn-updater#readme"
+}
